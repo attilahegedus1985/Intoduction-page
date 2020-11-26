@@ -1,6 +1,46 @@
 * {
   box-sizing: border-box;
 }
+
+h1, h2, h3 {
+  padding: 1rem;
+}
+.favi {
+  height: 4rem;
+}
+.header {
+  display:         grid;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  font-size:       4rem;
+  color:           white;
+  font-weight:     700;
+}
+.header-wrapper {
+  display:         flex;
+  justify-content: center;
+  flex-flow:       row wrap;
+  padding-top:     1rem;
+  padding-bottom:  1rem;
+  border-bottom:   solid 1px white;
+}
+.content {
+  padding-top: 2rem;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+.hege {
+  padding: 1rem;
+  width: 20rem;
+}
 footer {
   background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
   display: table;
