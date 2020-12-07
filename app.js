@@ -8,4 +8,9 @@ $(document).ready(function() {
   });
   
   });
-  
+  $(document).ready(function() {
+    $(".bgcolorchanger").click(function() {
+        $(".bgcolorchanger").css("background-color","green");                       
+                               });
+           });
+

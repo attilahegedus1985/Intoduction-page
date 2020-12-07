@@ -1,16 +1,17 @@
 * {
-  box-sizing: border-box;
+  box-sizing:      border-box;
 }
 
 h1, h2, h3 {
-  padding: 1rem;
+  padding:         1rem;
 }
+
 .favi {
-  height: 4rem;
+  height:          4rem;
 }
 .header {
   display:         grid;
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  background:      url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
   font-size:       4rem;
   color:           white;
   font-weight:     700;
@@ -23,56 +24,74 @@ h1, h2, h3 {
   padding-bottom:  1rem;
   border-bottom:   solid 1px white;
 }
-.content {
-  padding-top: 2rem;
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
-  color: white;
-  display: flex;
-  flex-flow: column;
+p {
   align-items: center;
+  margin-left: 1rem;
+}
+.content {
+  padding-top:     2rem;
+  background:     url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  color:          white;
+  display:       flex;
+  flex-flow:     column;
+  align-items:   center;
 }
 h1 {
-  font-size: 2rem;
+  font-size:     2rem;
 }
 h2 {
-  font-size: 1.5rem;
+  font-size:     1.5rem;
 }
 .hege {
-  padding: 1rem;
-  width: 20rem;
+  padding:       1rem;
+  width:         20rem;
 }
 footer {
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
-  display: table;
-  width: 100vw;
-  height: 8rem;
-  text-align: center;
-  padding: 1rem;
+  background:    url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  display:      table;
+  width:        100vw;
+  height:       8rem;
+  text-align:   center;
+  padding:      1rem;
   font-family: 'Arial', sans-serif;
-  font-size: .875rem;
+  font-size:    .875rem;
 }
 
 .wrapper {
-  display: table-cell;
+  display:        table-cell;
   vertical-align: middle;
 }
 footer small {
-  color: #ccc;
-  letter-spacing: .025rem;
-  margin-bottom: 1.5rem;
-  display: block;
+  color:           #ccc;
+  letter-spacing:  .025rem;
+  margin-bottom:   1.5rem;
+  display:         block;
 }
 
 .footer-nav a {
-  text-decoration: none;
-  color: #c74f78;
-  margin: 0 .5rem;
-  display: inline-block;
+  text-decoration:  none;
+  color:            #4682b4;
+  margin:           0 .5rem;
+  display:          inline-block;
 }
 .footer-nav a:hover {
-  color: #f26896;
-  transition: color .15s ease-in-out;
+  color:            #4169e1;
+  transition:       color .15s ease-in-out;
 }
 strong {
-  font-weight: 700;
+  font-weight:      700;
+}
+img {
+    background-color: white;
+}
+.bgcolorchanger {
+  color:            white;
+  background-color: #4682b4;
+  height:           auto;
+  width:            auto;
+  text-align:       center;
+  font-weight:      700;
+  font-size:        2rem;
+  border-radius:    1rem;
+  padding:          0.75rem;
 }
