@@ -5,6 +5,8 @@
 h1, h2, h3 {
   padding:         1rem;
   text-align:      center;
+  font-family:     Montserrat, sans-serif;
+  letter-spacing:  .2rem;
 
 }
 
@@ -40,6 +42,7 @@ p {
 }
 h1 {
   font-size:     2rem;
+
 }
 h2 {
   font-size:     1.5rem;
@@ -96,4 +99,19 @@ img {
   font-size:        2rem;
   border-radius:    1rem;
   padding:          0.75rem;
+}
+.jarallax {
+  position: relative;
+  z-index: 0;
+}
+.jarallax > .jarallax-img {
+  position: absolute;
+  object-fit: cover;
+  /* support for plugin https://github.com/bfred-it/object-fit-images */
+  font-family: 'object-fit: cover;';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }

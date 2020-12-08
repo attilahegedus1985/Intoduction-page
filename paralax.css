@@ -1,0 +1,38 @@
+
+.bodygap{
+  height: auto;
+  width: 80vw;
+  text-align: center;
+  max-width: 800px;
+  background-color: white;
+}
+
+h1, h2 {
+  font-size: 2rem;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+
+img {
+  width: 80vw;
+  max-width: 800px;
+}
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  background: url("assets/hb1.jpg") center fixed no-repeat
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
