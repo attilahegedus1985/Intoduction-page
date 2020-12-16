@@ -26,7 +26,6 @@
 
 .textContainer a {
 	color: #333;
-    font-family:     Montserrat, sans-serif;
 
 }
 
@@ -38,6 +37,8 @@
 \*----------------------------------------------------------------------------------------------------------------*/
 .nav {
 	background: #333;
+      font-family:     Montserrat, sans-serif;
+
 }
 
 .nav .navControl {
