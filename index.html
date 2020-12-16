@@ -6,20 +6,22 @@
   <title>Hegedus Attila Design</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="stylesheet" href="main.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nerko+One&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="assets/jquery.snowfall.js"></script>
+  <script src="js/navigation.js"></script>
   <script src="app.js"></script>
 
 
 </head>
   
 <body>
-
+  
     <script>
-    $.snowfall.start ({
-  content: '<i class="fa fa-snowflake-o"></i>'
+  $(".nav").each(function(){
+  new ResponsiveNav($(".nav"), 600);
 });
   </script>
   
@@ -31,12 +33,43 @@
   </div>
   
 </div>
+
+  <div class="nav">
+
+    
+  <!-- Mobile Toggle Control -->
+  <div class="navControl">
+    <a href="#">Toggle Button</a>
+  </div>
+
+  <!-- Main Nav Here -->
+  <ul>
+    <li>
+      <a href="">Product examples<span>&#9662;</span></a>
+      <ul class="dropdown">
+        <li><a href="http://hegedusattila.design/california">California page</a>
+        <li><a href="http://hegedusattila.design/parallax">Parallax Background Scroll</a>
+        <li><a href="http://hegedusattila.design/others">Others</a>>
+      </ul>
+    <li>
+      <a href="">External Links<span>&#9662;</span></a>
+      <ul class="dropdown">
+        <li><a href="https://codeberryschool.com/">CodeBerry</a>
+        <li><a href="">Github</a>
+      </ul>
+    <li><a href="http://hegedusattila.design/contact">Contact</a>
+    
+  </ul>
+
+</div>
+  
+  
 <div class="content">
   <h1>UNDER CONSTRUCTION</h1><img src="assets/underconst.png">
-  <h2>Weboldal fejlesztés(HTML, CSS, Javascript)</h2>
+  <h2>WebDesign (HTML, CSS, Javascript)</h2>
   <img class="hege" src="hegeatt.jpg">
-  <h3>A szerző</h3>
-  <div class="bgcolorchanger"><a href="california.html" target="_blank">Visit California Intro Page</a></div>
+  <h3>The creator</h3>
+  <div class="bgcolorchanger"><a href="#">Click here if you want a green button</a></div>
 
 </div>
   
